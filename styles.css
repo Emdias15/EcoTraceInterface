@@ -1,0 +1,97 @@
+/* Esticar os campos e reduzir margens laterais */
+.block-container {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.stTextInput > div > input,
+.stNumberInput > div > input,
+.stSelectbox > div,
+.stMultiSelect > div {
+    width: 100% !important;
+}
+
+.stFileUploader {
+    width: 100% !important;
+}
+
+.element-container:has(.stAlert) {
+    width: 100%;
+    margin: auto;
+}
+
+.titulo-principal {
+    font-size: 5rem;
+    color: #2E8B57;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    color: #444;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.linha {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #2E8B57, #A9DFBF, #2E8B57);
+    margin: 20px auto;
+    width: 60%;
+}
+
+.secao-upload {
+    background-color: #F0FFF0;
+    padding: 1rem 1.5rem;
+    border-left: 6px solid #2E8B57;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2E8B57;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.secao-comparacao {
+    background-color: #E6F0FA;
+    border-left: 6px solid #1E90FF;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1E3A8A;
+}
+
+.secao-manual {
+    background-color: #E6F0FA;
+    padding: 1rem 1.5rem;
+    border-left: 6px solid #1E90FF;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.parte-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #1E90FF;
+}
+
+.campo-parte label {
+    font-size: 1.05rem !important;
+    font-weight: 500 !important;
+}
