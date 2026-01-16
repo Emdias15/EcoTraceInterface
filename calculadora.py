@@ -26,7 +26,7 @@ def normalizar_texto(texto):
 # --------- Inicialização de Sessão -----------
 if 'df_materiais' not in st.session_state:
     try:
-        df_raw = pd.read_csv("materiais_co2.csv")
+        df_raw = pd.read_csv("materiais_co2_test.csv")
         if not {"materia", "co2_por_kg"}.issubset(df_raw.columns):
             st.error("O ficheiro 'materiais_co2.csv' deve conter as colunas: 'materia' e 'co2_por_kg'")
             st.session_state.df_materiais = None
