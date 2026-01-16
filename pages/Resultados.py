@@ -129,7 +129,7 @@ else:
     col1, col2 = st.columns(2)
     with col1:
         if st.button("← Voltar e adicionar nova peça"):
-            st.switch_page("Calculadora.py")
+            st.switch_page("calculadora.py")
     with col2:
         if st.button("🗑️ Limpar todos os resultados"):
             st.session_state.todas_pecas = []

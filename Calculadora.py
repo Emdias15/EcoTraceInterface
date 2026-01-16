@@ -271,7 +271,7 @@ if "df_materiais" in st.session_state and st.session_state.df_materiais is not N
                 st.rerun()
         with col2:
             if st.button("📊 Ver Todos os Resultados", use_container_width=True, type="primary"):
-                st.switch_page("pages/Resultados.py")
+                st.switch_page("pages/resultados.py")
 
     # --------- Introdução manual -----------
     if (not dados_importados and not uploaded_files) or st.session_state.get("mostrar_manual", False):
