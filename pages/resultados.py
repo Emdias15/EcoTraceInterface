@@ -82,7 +82,7 @@ def mostrar_resultados(nome_peca, tipo_peca, co2_total, co2_contribuicoes, idx=0
 if "todas_pecas" not in st.session_state or not st.session_state.todas_pecas:
     st.warning("⚠️ Nenhuma peça foi calculada ainda. Volte à página principal para introduzir dados.")
     if st.button("← Voltar à página principal"):
-        st.switch_page("app.py")
+        st.switch_page("calculadora.py")
 else:
     st.markdown('<div class="secao-comparacao">📊 Resultados das Peças Calculadas</div>', unsafe_allow_html=True)
     
